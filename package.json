@@ -2,30 +2,37 @@
   "name": "i-love-pork-cutlet-blog",
   "version": "1.0.0",
   "description": "Vercel과 Supabase를 기반으로 하는 테크 블로그 `I Love Pork Cutlet` 개발 및 배포 프로젝트입니다.",
-  "homepage": "https://github.com/Katsudon8991/i-love-pork-cutlet-blog#readme",
-  "bugs": {
-    "url": "https://github.com/Katsudon8991/i-love-pork-cutlet-blog/issues"
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Katsudon8991/i-love-pork-cutlet-blog.git"
   },
-  "license": "MIT",
-  "author": "katsudon8991",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "build": "tsc"
+  "bugs": {
+    "url": "https://github.com/Katsudon8991/i-love-pork-cutlet-blog/issues"
   },
-  "devDependencies": {
-    "typescript": "^6.0.2"
-  },
+  "homepage": "https://github.com/Katsudon8991/i-love-pork-cutlet-blog#readme",
   "dependencies": {
-    "@types/node": "^25.5.0",
     "next": "^16.2.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.1",
+    "typescript": "^6.0.2"
   }
 }
