@@ -21,3 +21,11 @@ Vercel과 Supabase를 기반으로 하는 테크 블로그 `I Love Pork Cutlet` 
 - **BaaS:** Supabase (PostgreSQL, Auth, Storage)
 - **Deployment:** Vercel (PaaS)
 - **ORM/Client:** Supabase Client (@supabase/supabase-js)
+
+---
+
+## 개발 규칙 (Development Rules)
+- 모든 코드는 **TypeScript**를 사용하여 타입 안정성을 확보합니다.
+- 프론트엔드 컴포넌트는 가급적 **Server Components**를 우선적으로 고려합니다.
+- 백엔드 로직은 가능한 **Supabase Edge Functions**를 통해 처리하여 서버리스 아키텍처를 유지합니다.
+- 모든 설명과 가이드는 한국어를 기본으로 합니다.
