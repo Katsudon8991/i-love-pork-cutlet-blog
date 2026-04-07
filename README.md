@@ -8,7 +8,7 @@ Vercel과 Supabase를 기반으로 하는 테크 블로그 `I Love Pork Cutlet` 
 ### 1. Frontend
 - **Framework:** Next.js (App Router 기반)
 - **Language:** TypeScript
-- **Styling:** Vanilla CSS (기본 설정)
+- **Styling:** Tailwind CSS
 - **Key Features:** React Server Components (RSC), SEO 최적화, ISR/SSR 활용
 
 ### 2. Backend (Serverless)
